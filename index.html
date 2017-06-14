@@ -12,9 +12,7 @@ body {
 }
 
 .symbol {
-  fill: steelblue;
-  fill-opacity: 1.0;
-  stroke: #fff;
+    stroke: #fff;
 }
 
 </style>
@@ -57,6 +55,7 @@ function ready(error, us, centroid) {
       .data(centroid.features.sort(function(a, b) { return b.properties.population - a.properties.population; }))
     .enter().append("path")
       .attr("class", "symbol")
+      .attr("fill", (function(d) {return d.properties.color}))
       .attr("d", path.pointRadius(function(d) { return radius(d.properties.population); }));
 }
 
