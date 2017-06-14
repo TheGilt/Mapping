@@ -41,7 +41,7 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
 
 queue()
-    .defer(d3.json, "us-map.json")
+    .defer(d3.json, "us-map2.json")
     .defer(d3.json, "us.json")
     .await(ready);
 
