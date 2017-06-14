@@ -1,0 +1,4 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","id":"36","geometry":{"type":"Point","coordinates":[-74.645228,41.507548]},"properties":{"name":"New York City","population":5894121, "color":"red"}},
+{"type":"Feature","id":"53","geometry":{"type":"Point","coordinates":[-121.624501,47.341728]},"properties":{"name":"Seattle","population":5894121, "color":"blue"}}
+]}
