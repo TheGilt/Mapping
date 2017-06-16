@@ -11,6 +11,7 @@ Follow steps 1 and 2 above then:
 1. install http-server with '$ sudo npm install http-server -g'
 2. create a local server with '$  http-server -p 8008 &' 
 3. view in browser at localhost:8008
+4. note that this method will only allow viewing of 'index.html'
 
 'index.html' refers to a U.S. centered map
 'index2.html' refers to a North-America centered map
