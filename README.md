@@ -5,7 +5,7 @@ To view maps:
 2. ensure all files are in the same directory
 3. view .html files in RStudio under preview mode
 
-# OR alternatively
+### OR alternatively
 
 Follow steps 1 and 2 above then:
 1. install http-server with '$ sudo npm install http-server -g'
